@@ -1,0 +1,156 @@
+.form_heading{
+         
+          font-size: 25px;
+          font-weight:bold ;
+          margin-bottom: 2px;
+          text-align: center;
+  }
+  .form_table{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+    /* margin : 20px 300px 0px 300px; */
+    height: 650px;
+    padding: 10px;
+  
+  }
+  
+  .form__input input{
+    width: 100%;
+    padding: 0.5rem 1rem ;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    color: var(--heading-color);
+  }
+  .photo__input {
+    border: none;
+
+  }
+  .totalwages{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-size:15px;
+    font-weight: bold;
+    color: green;
+    padding: 5px;
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: white;
+  }
+  .scroller {
+            
+            /* overflow-y: l; */
+            height: 600px;
+            overflow-y: scroll;
+            scroll-snap-type: y mandatory;
+        }
+        
+  .scroller section {
+            scroll-snap-align: start;
+        }
+  .label{
+    font-size: 15px;
+    font-weight:600;
+    margin-left: 2px;
+  }
+  .option{
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    height: 40px;
+  }
+  .submit__Button{
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen  and (max-width:900px){
+   
+    .form_table{
+      border: 2px solid black;
+      border-radius: 15px;
+   
+      /* margin : 20px 100px 0px 100px; */
+
+    
+    }
+    }
+  @media screen  and (max-width:800px){
+   
+    .form_table{
+      border: 2px solid black;
+      border-radius: 15px;
+   
+      /* margin : 20px 100px 0px 100px; */
+ 
+    
+    }
+    }
+  @media screen  and (max-width:600px){
+    .scroller {
+      height: 600px;
+      overflow-y: scroll;
+      scroll-snap-type: y mandatory;
+  }
+  
+  .scroller section {
+      scroll-snap-align: start;
+  }
+  .form_heading{
+           
+    font-size: 25px;
+    font-weight:bold ;
+    margin-bottom: 15px;
+  }
+  /* .form_table{
+      
+       
+    margin : 20px 20px 20px 20px;
+
+  
+  } */
+  }
+  @media screen  and (max-width:440px){
+   
+  .form_heading{
+           
+    font-size: 16px;
+    font-weight:bold ;
+    margin-bottom: 15px;
+  }
+  .upload__btn{
+    font-size: 16px;
+   
+    margin-bottom: 15px;
+  }
+  }
+
+  @media screen  and (max-width:400px){
+   
+   
+    .upload__btn{
+      font-size: 16px;
+     
+      margin-bottom: 15px;
+    }
+    .photo__input {
+      border: none;
+      font-size: 12px;
+      
+    }
+    .photo_section{
+      flex:none;
+      flex-wrap: nowrap;
+      
+    }
+    }
+  
+  
+
+   
+
+     
+
+ 

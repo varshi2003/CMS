@@ -1,0 +1,43 @@
+.welcome_content {
+        margin: 10px 20px;
+}
+
+.operator_img img {
+
+        align-items: center;
+        width: 300px;
+        border-radius: 5px 5px 0 0;
+        object-fit: cover;
+        padding: 30px;
+}
+
+.operator_img {
+        position: relative;
+}
+
+.operator_text {
+        text-decoration: none !important;
+}
+
+.operator_text span {
+        color: black;
+}
+
+.operator_card :hover {
+        background-color: var(--secondary-color);
+}
+
+.CardBody {
+        text-decoration: none;
+}
+
+.a {
+        text-decoration: none !important;
+
+        color: unset !important;
+}
+
+.card__column {
+        align-items: center;
+        justify-content: center;
+}
